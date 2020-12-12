@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AgregarEditarComentarioComponent } from './components/agregar-editar-comentario/agregar-editar-comentario.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ListComentariosComponent } from './components/list-comentarios/list-comentarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AgregarEditarComentarioComponent,
-    NavbarComponent
+    NavbarComponent,
+    ListComentariosComponent
   ],
   imports: [
     BrowserModule,
