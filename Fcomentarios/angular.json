@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "Fcomentarios"
+  "defaultProject": "Fcomentarios",
+  "cli": {
+    "analytics": false
+  }
 }

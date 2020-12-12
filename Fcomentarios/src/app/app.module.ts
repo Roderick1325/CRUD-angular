@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AgregarEditarComentarioComponent } from './components/agregar-editar-comentario/agregar-editar-comentario.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AgregarEditarComentarioComponent
   ],
   imports: [
     BrowserModule,
